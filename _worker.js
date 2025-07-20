@@ -18,6 +18,12 @@ const DEFAULT_PATH_MAPPINGS = {
 			'/query-dns': '/dns-query',
 		},
 	},
+	'/nextdns': {
+		targetDomain: 'dns.nextdns.io',
+		pathMapping: {
+			'/query-dns': '/ed1d7f',
+		},
+	},
 	// Add more path mappings as needed
 };
 
